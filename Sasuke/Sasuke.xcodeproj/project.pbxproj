@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		422FC87E1E0974E700172C7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC87D1E0974E700172C7A /* main.m */; };
+		422FC8811E0974E700172C7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8801E0974E700172C7A /* AppDelegate.m */; };
+		422FC8841E0974E700172C7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8831E0974E700172C7A /* ViewController.m */; };
+		422FC8871E0974E700172C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422FC8851E0974E700172C7A /* Main.storyboard */; };
+		422FC8891E0974E700172C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422FC8881E0974E700172C7A /* Assets.xcassets */; };
+		422FC88C1E0974E700172C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422FC88A1E0974E700172C7A /* LaunchScreen.storyboard */; };
+		422FC8971E0974E800172C7A /* SasukeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8961E0974E800172C7A /* SasukeTests.m */; };
+		422FC8A21E0974E800172C7A /* SasukeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8A11E0974E800172C7A /* SasukeUITests.m */; };
+		422FC8B21E0975EB00172C7A /* CubeTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8B11E0975EB00172C7A /* CubeTransitioning.m */; };
+		422FC8B61E0977E900172C7A /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8B51E0977E900172C7A /* SecondVC.m */; };
+		422FC8BA1E0979D200172C7A /* ConstStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8B91E0979D200172C7A /* ConstStr.m */; };
+		422FC8BD1E097E0600172C7A /* FoldTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8BC1E097E0600172C7A /* FoldTransitioning.m */; };
+		422FC8C01E097F4A00172C7A /* CardTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8BF1E097F4A00172C7A /* CardTransitioning.m */; };
+		422FC8C31E09813B00172C7A /* BombTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8C21E09813B00172C7A /* BombTransitioning.m */; };
+		42ECB9EF1E0A2B9E0012510D /* FilpTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECB9EE1E0A2B9E0012510D /* FilpTransitioning.m */; };
+		42ECB9F21E0A2EC00012510D /* TurnTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECB9F11E0A2EC00012510D /* TurnTransitioning.m */; };
+		42ECB9F51E0A2FE10012510D /* CrossfadeTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECB9F41E0A2FE10012510D /* CrossfadeTransitioning.m */; };
+		42ECB9F81E0A30DF0012510D /* NatGeoTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECB9F71E0A30DF0012510D /* NatGeoTransitioning.m */; };
+		42ECB9FB1E0A35100012510D /* PortalTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECB9FA1E0A35100012510D /* PortalTransitioning.m */; };
+		42ECB9FE1E0A36D00012510D /* PanTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ECB9FD1E0A36D00012510D /* PanTransitioning.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		422FC8931E0974E800172C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 422FC8711E0974E700172C7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 422FC8781E0974E700172C7A;
+			remoteInfo = Sasuke;
+		};
+		422FC89E1E0974E800172C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 422FC8711E0974E700172C7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 422FC8781E0974E700172C7A;
+			remoteInfo = Sasuke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		422FC8791E0974E700172C7A /* Sasuke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sasuke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		422FC87D1E0974E700172C7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		422FC87F1E0974E700172C7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		422FC8801E0974E700172C7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		422FC8821E0974E700172C7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		422FC8831E0974E700172C7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		422FC8861E0974E700172C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		422FC8881E0974E700172C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		422FC88B1E0974E700172C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		422FC88D1E0974E800172C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422FC8921E0974E800172C7A /* SasukeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SasukeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		422FC8961E0974E800172C7A /* SasukeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SasukeTests.m; sourceTree = "<group>"; };
+		422FC8981E0974E800172C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422FC89D1E0974E800172C7A /* SasukeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SasukeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		422FC8A11E0974E800172C7A /* SasukeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SasukeUITests.m; sourceTree = "<group>"; };
+		422FC8A31E0974E800172C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422FC8B01E0975EB00172C7A /* CubeTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeTransitioning.h; sourceTree = "<group>"; };
+		422FC8B11E0975EB00172C7A /* CubeTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeTransitioning.m; sourceTree = "<group>"; };
+		422FC8B31E0975FF00172C7A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		422FC8B41E0977E900172C7A /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		422FC8B51E0977E900172C7A /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		422FC8B81E0979D200172C7A /* ConstStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstStr.h; sourceTree = "<group>"; };
+		422FC8B91E0979D200172C7A /* ConstStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstStr.m; sourceTree = "<group>"; };
+		422FC8BB1E097E0600172C7A /* FoldTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldTransitioning.h; sourceTree = "<group>"; };
+		422FC8BC1E097E0600172C7A /* FoldTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldTransitioning.m; sourceTree = "<group>"; };
+		422FC8BE1E097F4A00172C7A /* CardTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransitioning.h; sourceTree = "<group>"; };
+		422FC8BF1E097F4A00172C7A /* CardTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTransitioning.m; sourceTree = "<group>"; };
+		422FC8C11E09813B00172C7A /* BombTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombTransitioning.h; sourceTree = "<group>"; };
+		422FC8C21E09813B00172C7A /* BombTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombTransitioning.m; sourceTree = "<group>"; };
+		42ECB9ED1E0A2B9E0012510D /* FilpTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilpTransitioning.h; sourceTree = "<group>"; };
+		42ECB9EE1E0A2B9E0012510D /* FilpTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilpTransitioning.m; sourceTree = "<group>"; };
+		42ECB9F01E0A2EC00012510D /* TurnTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnTransitioning.h; sourceTree = "<group>"; };
+		42ECB9F11E0A2EC00012510D /* TurnTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurnTransitioning.m; sourceTree = "<group>"; };
+		42ECB9F31E0A2FE10012510D /* CrossfadeTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossfadeTransitioning.h; sourceTree = "<group>"; };
+		42ECB9F41E0A2FE10012510D /* CrossfadeTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossfadeTransitioning.m; sourceTree = "<group>"; };
+		42ECB9F61E0A30DF0012510D /* NatGeoTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NatGeoTransitioning.h; sourceTree = "<group>"; };
+		42ECB9F71E0A30DF0012510D /* NatGeoTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NatGeoTransitioning.m; sourceTree = "<group>"; };
+		42ECB9F91E0A35100012510D /* PortalTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalTransitioning.h; sourceTree = "<group>"; };
+		42ECB9FA1E0A35100012510D /* PortalTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalTransitioning.m; sourceTree = "<group>"; };
+		42ECB9FC1E0A36CF0012510D /* PanTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanTransitioning.h; sourceTree = "<group>"; };
+		42ECB9FD1E0A36D00012510D /* PanTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanTransitioning.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		422FC8761E0974E700172C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422FC88F1E0974E800172C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422FC89A1E0974E800172C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422FC8701E0974E700172C7A = {
+			isa = PBXGroup;
+			children = (
+				422FC87B1E0974E700172C7A /* Sasuke */,
+				422FC8951E0974E800172C7A /* SasukeTests */,
+				422FC8A01E0974E800172C7A /* SasukeUITests */,
+				422FC87A1E0974E700172C7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		422FC87A1E0974E700172C7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422FC8791E0974E700172C7A /* Sasuke.app */,
+				422FC8921E0974E800172C7A /* SasukeTests.xctest */,
+				422FC89D1E0974E800172C7A /* SasukeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422FC87B1E0974E700172C7A /* Sasuke */ = {
+			isa = PBXGroup;
+			children = (
+				422FC8AF1E09756100172C7A /* Transitioning */,
+				422FC8B71E0979A100172C7A /* Tool */,
+				422FC87F1E0974E700172C7A /* AppDelegate.h */,
+				422FC8801E0974E700172C7A /* AppDelegate.m */,
+				422FC8821E0974E700172C7A /* ViewController.h */,
+				422FC8831E0974E700172C7A /* ViewController.m */,
+				422FC8B41E0977E900172C7A /* SecondVC.h */,
+				422FC8B51E0977E900172C7A /* SecondVC.m */,
+				422FC8851E0974E700172C7A /* Main.storyboard */,
+				422FC8881E0974E700172C7A /* Assets.xcassets */,
+				422FC88A1E0974E700172C7A /* LaunchScreen.storyboard */,
+				422FC88D1E0974E800172C7A /* Info.plist */,
+				422FC87C1E0974E700172C7A /* Supporting Files */,
+			);
+			path = Sasuke;
+			sourceTree = "<group>";
+		};
+		422FC87C1E0974E700172C7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				422FC87D1E0974E700172C7A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		422FC8951E0974E800172C7A /* SasukeTests */ = {
+			isa = PBXGroup;
+			children = (
+				422FC8961E0974E800172C7A /* SasukeTests.m */,
+				422FC8981E0974E800172C7A /* Info.plist */,
+			);
+			path = SasukeTests;
+			sourceTree = "<group>";
+		};
+		422FC8A01E0974E800172C7A /* SasukeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				422FC8A11E0974E800172C7A /* SasukeUITests.m */,
+				422FC8A31E0974E800172C7A /* Info.plist */,
+			);
+			path = SasukeUITests;
+			sourceTree = "<group>";
+		};
+		422FC8AF1E09756100172C7A /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				422FC8B01E0975EB00172C7A /* CubeTransitioning.h */,
+				422FC8B11E0975EB00172C7A /* CubeTransitioning.m */,
+				422FC8BB1E097E0600172C7A /* FoldTransitioning.h */,
+				422FC8BC1E097E0600172C7A /* FoldTransitioning.m */,
+				422FC8BE1E097F4A00172C7A /* CardTransitioning.h */,
+				422FC8BF1E097F4A00172C7A /* CardTransitioning.m */,
+				422FC8C11E09813B00172C7A /* BombTransitioning.h */,
+				422FC8C21E09813B00172C7A /* BombTransitioning.m */,
+				42ECB9ED1E0A2B9E0012510D /* FilpTransitioning.h */,
+				42ECB9EE1E0A2B9E0012510D /* FilpTransitioning.m */,
+				42ECB9F01E0A2EC00012510D /* TurnTransitioning.h */,
+				42ECB9F11E0A2EC00012510D /* TurnTransitioning.m */,
+				42ECB9F31E0A2FE10012510D /* CrossfadeTransitioning.h */,
+				42ECB9F41E0A2FE10012510D /* CrossfadeTransitioning.m */,
+				42ECB9F61E0A30DF0012510D /* NatGeoTransitioning.h */,
+				42ECB9F71E0A30DF0012510D /* NatGeoTransitioning.m */,
+				42ECB9F91E0A35100012510D /* PortalTransitioning.h */,
+				42ECB9FA1E0A35100012510D /* PortalTransitioning.m */,
+				42ECB9FC1E0A36CF0012510D /* PanTransitioning.h */,
+				42ECB9FD1E0A36D00012510D /* PanTransitioning.m */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+		422FC8B71E0979A100172C7A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				422FC8B31E0975FF00172C7A /* PrefixHeader.pch */,
+				422FC8B81E0979D200172C7A /* ConstStr.h */,
+				422FC8B91E0979D200172C7A /* ConstStr.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		422FC8781E0974E700172C7A /* Sasuke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422FC8A61E0974E800172C7A /* Build configuration list for PBXNativeTarget "Sasuke" */;
+			buildPhases = (
+				422FC8751E0974E700172C7A /* Sources */,
+				422FC8761E0974E700172C7A /* Frameworks */,
+				422FC8771E0974E700172C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sasuke;
+			productName = Sasuke;
+			productReference = 422FC8791E0974E700172C7A /* Sasuke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		422FC8911E0974E800172C7A /* SasukeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422FC8A91E0974E800172C7A /* Build configuration list for PBXNativeTarget "SasukeTests" */;
+			buildPhases = (
+				422FC88E1E0974E800172C7A /* Sources */,
+				422FC88F1E0974E800172C7A /* Frameworks */,
+				422FC8901E0974E800172C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				422FC8941E0974E800172C7A /* PBXTargetDependency */,
+			);
+			name = SasukeTests;
+			productName = SasukeTests;
+			productReference = 422FC8921E0974E800172C7A /* SasukeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		422FC89C1E0974E800172C7A /* SasukeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422FC8AC1E0974E800172C7A /* Build configuration list for PBXNativeTarget "SasukeUITests" */;
+			buildPhases = (
+				422FC8991E0974E800172C7A /* Sources */,
+				422FC89A1E0974E800172C7A /* Frameworks */,
+				422FC89B1E0974E800172C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				422FC89F1E0974E800172C7A /* PBXTargetDependency */,
+			);
+			name = SasukeUITests;
+			productName = SasukeUITests;
+			productReference = 422FC89D1E0974E800172C7A /* SasukeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		422FC8711E0974E700172C7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CC;
+				TargetAttributes = {
+					422FC8781E0974E700172C7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					422FC8911E0974E800172C7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 422FC8781E0974E700172C7A;
+					};
+					422FC89C1E0974E800172C7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 422FC8781E0974E700172C7A;
+					};
+				};
+			};
+			buildConfigurationList = 422FC8741E0974E700172C7A /* Build configuration list for PBXProject "Sasuke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 422FC8701E0974E700172C7A;
+			productRefGroup = 422FC87A1E0974E700172C7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				422FC8781E0974E700172C7A /* Sasuke */,
+				422FC8911E0974E800172C7A /* SasukeTests */,
+				422FC89C1E0974E800172C7A /* SasukeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		422FC8771E0974E700172C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422FC88C1E0974E700172C7A /* LaunchScreen.storyboard in Resources */,
+				422FC8891E0974E700172C7A /* Assets.xcassets in Resources */,
+				422FC8871E0974E700172C7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422FC8901E0974E800172C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422FC89B1E0974E800172C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		422FC8751E0974E700172C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422FC8841E0974E700172C7A /* ViewController.m in Sources */,
+				422FC8C01E097F4A00172C7A /* CardTransitioning.m in Sources */,
+				42ECB9F21E0A2EC00012510D /* TurnTransitioning.m in Sources */,
+				422FC8811E0974E700172C7A /* AppDelegate.m in Sources */,
+				422FC8B21E0975EB00172C7A /* CubeTransitioning.m in Sources */,
+				42ECB9F81E0A30DF0012510D /* NatGeoTransitioning.m in Sources */,
+				422FC8B61E0977E900172C7A /* SecondVC.m in Sources */,
+				422FC87E1E0974E700172C7A /* main.m in Sources */,
+				42ECB9FE1E0A36D00012510D /* PanTransitioning.m in Sources */,
+				422FC8BD1E097E0600172C7A /* FoldTransitioning.m in Sources */,
+				42ECB9FB1E0A35100012510D /* PortalTransitioning.m in Sources */,
+				422FC8BA1E0979D200172C7A /* ConstStr.m in Sources */,
+				42ECB9EF1E0A2B9E0012510D /* FilpTransitioning.m in Sources */,
+				42ECB9F51E0A2FE10012510D /* CrossfadeTransitioning.m in Sources */,
+				422FC8C31E09813B00172C7A /* BombTransitioning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422FC88E1E0974E800172C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422FC8971E0974E800172C7A /* SasukeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422FC8991E0974E800172C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422FC8A21E0974E800172C7A /* SasukeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		422FC8941E0974E800172C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 422FC8781E0974E700172C7A /* Sasuke */;
+			targetProxy = 422FC8931E0974E800172C7A /* PBXContainerItemProxy */;
+		};
+		422FC89F1E0974E800172C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 422FC8781E0974E700172C7A /* Sasuke */;
+			targetProxy = 422FC89E1E0974E800172C7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		422FC8851E0974E700172C7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422FC8861E0974E700172C7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		422FC88A1E0974E700172C7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422FC88B1E0974E700172C7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		422FC8A41E0974E800172C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		422FC8A51E0974E800172C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		422FC8A71E0974E800172C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/chenchen/Html/Sasuke/Sasuke/PrefixHeader.pch;
+				INFOPLIST_FILE = Sasuke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.Sasuke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		422FC8A81E0974E800172C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/chenchen/Html/Sasuke/Sasuke/PrefixHeader.pch;
+				INFOPLIST_FILE = Sasuke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.Sasuke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		422FC8AA1E0974E800172C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SasukeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.SasukeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sasuke.app/Sasuke";
+			};
+			name = Debug;
+		};
+		422FC8AB1E0974E800172C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SasukeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.SasukeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sasuke.app/Sasuke";
+			};
+			name = Release;
+		};
+		422FC8AD1E0974E800172C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SasukeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.SasukeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sasuke;
+			};
+			name = Debug;
+		};
+		422FC8AE1E0974E800172C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SasukeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.SasukeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sasuke;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		422FC8741E0974E700172C7A /* Build configuration list for PBXProject "Sasuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422FC8A41E0974E800172C7A /* Debug */,
+				422FC8A51E0974E800172C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422FC8A61E0974E800172C7A /* Build configuration list for PBXNativeTarget "Sasuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422FC8A71E0974E800172C7A /* Debug */,
+				422FC8A81E0974E800172C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422FC8A91E0974E800172C7A /* Build configuration list for PBXNativeTarget "SasukeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422FC8AA1E0974E800172C7A /* Debug */,
+				422FC8AB1E0974E800172C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422FC8AC1E0974E800172C7A /* Build configuration list for PBXNativeTarget "SasukeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422FC8AD1E0974E800172C7A /* Debug */,
+				422FC8AE1E0974E800172C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 422FC8711E0974E700172C7A /* Project object */;
+}
