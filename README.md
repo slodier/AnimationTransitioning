@@ -1,6 +1,6 @@
 # AnimationTransitioning
-##转场动画,整理 [VCTransitionsLibrary](https://github.com/ColinEberhardt/VCTransitionsLibrary) 的一些动画
-有 10 种转场动画,详见 demo
+##转场动画,为了方便使用,整理了 [VCTransitionsLibrary](https://github.com/ColinEberhardt/VCTransitionsLibrary) 的一些动画
+有 10 种转场动画,详见 `demo`, 由于附带 `.gif` ,所以文件有点大.
 ##1.cube 
 <img src="Sasuke/Gif/cube.gif" alt="cube">
 ##2.fold 
